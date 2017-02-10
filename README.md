@@ -1,7 +1,1 @@
-# Assignments--IS-362
 
-## Dealing with duplicate entries. Last value wins! dict = {'Name': 'Alice', 'Age': 47, 'Name': 'Manni'} print("dict['Name']: ", dict['Name'])
-
-## Applying Function and Methods breakfast = {'ham': 'roll', 'egg': 'scramble'} lunch = {'burger': 'well', 'fries': 'yes', 'salad': 'yes'} print("Length : %d" % len (lunch))
-
-## seq -- list of values which would be used for dictionary keys preparation. ## value -- if provided then value would be set to this value seq = ('name', 'height', 'sex') dict = dict.fromkeys(seq) print("New Dictionary : %s" % str(dict)) dict = dict.fromkeys(seq, 10,) print ("New Dictionary : %s" % str(dict))
